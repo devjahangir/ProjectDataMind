@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0D1C2B;
+    color: #ffffff;
+    
+}
+.container{
+    max-width: 1177px;
+    margin: 0 auto;
+}
+.footer-inner {
+    padding-top: 111px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+.dataminds{
+    padding-left: 130px;
+}
+.data-logo{
+    padding-top: 350px;
+}
+.data-logo img{
+    height: ;
+}
+.programs{
+    padding-left: 499px;
+}
+.programs ul{
+    list-style: none;
+}
+ li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #f7f7f7;
+}
