@@ -1,44 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-color: #0D1C2B;
-    color: #ffffff;
+    color: #f1f1f1;
+    font-family: 'Ubuntu', sans-serif;
     
+}
+address{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+li{
+    list-style: none;
+    line-height: 34px;
+}
+h2{
+    margin-bottom: 21px;
 }
 .container{
     max-width: 1177px;
     margin: 0 auto;
 }
-.footer-inner {
+.footer-inner{
     padding-top: 111px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
+    grid-row-gap: px;
+    grid-column-gap: 30px;
 }
-.dataminds{
-    padding-left: 130px;
+.data-text{
+    height: 209px;
+    width: 302px;
+}
+.data-text h2{
+    font-family: 'Press Start 2P', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+}
+.data-text p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
 }
 .data-logo{
-    padding-top: 350px;
+    margin-top: 30px;
 }
 .data-logo img{
-    height: 100px;
+    width: 291px;
+    height: 187px;
+   
 }
-.programs{
-    padding-left: 499px;
+.programs-up{
+    Width:213px;
+    Height:250px
 }
-.programs ul{
-    list-style: none;
+.programs-up ul li a{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
 }
- li {
-    list-style: none;
+
+.programs-down address{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 34px;
+    margin-top: 128px;
 }
-a{
-    text-decoration: none;
-    color: #f7f7f7;
+.Corporate-Services{
+    height: 357px;
+    width: 217.99996948242188px;
+
+}
+.Corporate-Services h2{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+.corporate-down h6{
+    margin-top: 38px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+}
+.company-up{
+    height: 286px;
+    width: 160px;
+    border-radius: nullpx;
+
+}
+.resources{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.contac{
+    margin-top: 22px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+
+    height: 29px;
+    width: 174px;
+    border-radius: nullpx;
+
+}
+.social-icon{
+    width: 79.55px;
+    height: 23px;
+}
+.social-icon ul li a{
+    padding-right: 3px;
+}
+
+.cell{
+    margin-top: 57px;
+    height: 21px;
+    width: 139px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
 }

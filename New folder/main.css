@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    width: 1170px;
+}
+.title{
+    text-align: center;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #222831;
+    
+}
+.about-inner{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    width: 901px;
+    height: 408px;
+}
+.title{
+    margin-top: 90px;
+}
+.about-us{
+    margin-top: 54px;
+}
+p{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #222831;
+
+}
