@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 491px;
+    max-width: 1440px;
+    background-color: #F7F7F7;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+}
+.logo{
+    height: 46px;
+    width: 15px;
+    left: 125px;
+    top: 45px;
+}
+.logo image{
+    height: 446px;
+width: 315px;
+left: 125px;
+top: 45px;
+border-radius: 0px;
+
+}
+.subscribe-inner{
+    text-align: center;
+    align-items: center;
+}
+
+.subscribe-inner h2{
+    padding-top: 94px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 52px;
+    text-transform: capitalize;
+    color: #222831;
+
+}
+.subscribe-inner p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.box{
+    position: absolute;
+    left: 23%;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 700px;
+    filter: drop-shadow(0px 7px 8px rgba(0, 0, 0, 0.25));
+}
+
+.form-box{
+    padding: 10px;
+    border-radius: 40px;
+    background: #0D1C2B; 
+
+}
+.form-box input{
+    font-weight: 400;
+    color: #F7F7F7;
+    padding: 28px 0px 28px 58px;
+    border: none;
+    outline: none;
+    background: #0D1C2B; 
+    border-radius: 40px;
+    
+}
+::placeholder {
+    color: #F7F7F7;
+    opacity: 1;
+    font-family: Ubuntu;
+    letter-spacing: 0.08em;
+    font-weight: 400;
+    font-size: 13px;
+}
+.form-box button{
+   width: 200px;
+   height: 64px;
+   color: #ffff;
+   padding: 21px 45px 21px 45px;
+   font-size: 20px;
+   border-radius: 40px;
+   background: #36c5f0;
+   cursor: pointer;
+   text-transform: uppercase;
+   margin-left: 58px;
+}
+.btn{
+    margin: 8px 8px 8px 0px;
+}
